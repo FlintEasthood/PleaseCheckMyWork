@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background: linear-gradient(to bottom, black, gray, black);
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header img:hover {
+  border:  2px solid darkgray;
+  border-radius: 15px;
+}
+
+nav a {
+  color: inherit;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+/* Main Section*/
+
+main {
+  background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  margin: 0 15%;
+  border-radius: 10px;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+
+.main-text {
+  background-color: black;
+
+  width: 100%;
+}
+
+.main-text * {
+  margin: 10px 0px;
+}
+
+/* Tea of the Month Section */
+
+.tea-of-the-month {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea-images {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-images img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px 0px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.tea-images img:hover {
+  border-color: white;
+}
+
+.tea-of-the-month h4, .tea-of-the-month h3, .tea-of-the-month h2 {
+  margin: 5px 0;
+}
+
+.tea-of-the-month h4:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.locations {
+  background: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+  margin: 0 350px;
+  border-radius: 10px;
+}
+
+.locations h2 {
+  margin-bottom: 20px;
+}
+.addresses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.addresses .address {
+  background: black;
+  height: 188px;
+  width: 225px;
+  border-radius: 10px;
+  margin: 10px 10px;
+  border: 2px solid darkgray;
+}
+
+.address h3, address p{
+  margin: 15px;
+}
+
+footer {
+  margin-top: 40px;;
+  height: 200px;
+}
+
+footer *{
+  margin: 20px 0px;
+}
+
+#copyright {
+  text-align: start;
+  margin-top: 45px;
+  margin-left: 20px;
+}
